@@ -1,0 +1,54 @@
+.banner-montreal {
+  background: linear-gradient(90deg, #d32f2f, #1565c0, #388e3c, #fbc02d, #7b1fa2);
+  color: white;
+  padding: 120px 20px;
+  text-align: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.45);
+  padding: 60px 30px;
+  border-radius: 12px;
+  display: inline-block;
+  max-width: 800px;
+}
+
+.banner-montreal h1 {
+  font-family: "Merriweather", serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.banner-montreal p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.btn-cta {
+  background-color: #d32f2f;
+  border: none;
+  color: white !important;
+  padding: 12px 25px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn-cta:hover {
+  background-color: #7b1fa2;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .banner-montreal h1 {
+    font-size: 1.7rem;
+  }
+
+  .overlay {
+    padding: 40px 20px;
+  }
+}
